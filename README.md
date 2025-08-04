@@ -1,8 +1,8 @@
-Projeto SQL: Análise de Dados de uma Loja de Eletrônicos
+# Projeto SQL: Análise de Dados de uma Loja de Eletrônicos
 
 Este projeto tem como objetivo demonstrar habilidades em SQL, utilizando um banco de dados de uma loja de eletrônicos para praticar a criação, inserção e consulta de dados. A partir de um conjunto de dados simulado, o projeto aborda desde consultas básicas de seleção até análises mais complexas que respondem a perguntas de negócio.
 
-Objetivo do Projeto
+## Objetivo do Projeto
 O principal objetivo deste projeto é explorar e manipular dados de um ambiente de comércio eletrônico, respondendo a questões comuns de análise de negócio, como:
 
 Quais são os produtos mais vendidos?
@@ -17,7 +17,7 @@ Qual o valor médio dos pedidos?
 
 Qual o produto mais vendido?
 
-Estrutura do Projeto
+## Estrutura do Projeto
 O projeto está organizado em scripts SQL que cobrem todas as etapas, desde a criação do banco de dados até as consultas analíticas. A estrutura é a seguinte:
 
 criar_base_dados.sql: Script responsável por definir o esquema do banco de dados, incluindo a criação das tabelas (clientes, produtos, pedidos, etc.) e a definição dos relacionamentos entre elas.
@@ -26,7 +26,7 @@ inserir_dados_base.sql: Script que adiciona dados as tabelas fictícias, criando
 
 consultas.sql: Contém uma série de consultas SQL, divididas por nível de complexidade (Básico, Intermediário e Avançado).
 
-Consultas de Análise
+## Consultas de Análise
 O arquivo consultas.sql apresenta soluções para alguns desafios dividos em 3 partes, demonstrando proficiência em diferentes aspectos do SQL:
 
 1. Consultas de Nível Básico: Foco na extração e filtragem inicial de dados. Aborda a seleção de informações de clientes e produtos, utilizando a cláusula WHERE para filtrar registros e ORDER BY para organizar os resultados de forma significativa.
@@ -37,7 +37,7 @@ O arquivo consultas.sql apresenta soluções para alguns desafios dividos em 3 p
 
 Essas consultas fornecem insights valiosos que podem apoiar a tomada de decisões estratégicas, como a formulação de campanhas de marketing personalizadas, a otimização do estoque com base nos produtos mais vendidos e a identificação de clientes-chave para programas de fidelidade.
 
-Como Executar o Projeto
+## Como Executar o Projeto
 Para replicar este projeto, você precisará de um sistema de gerenciamento de banco de dados (SGBD) compatível com SQL.
 
 Clone este repositório:
