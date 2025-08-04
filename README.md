@@ -15,19 +15,17 @@ Quais clientes ainda não realizaram nenhuma compra?
 
 Qual o valor médio dos pedidos?
 
-Qual o produto mais vendido?
-
 ## Estrutura do Projeto
 O projeto está organizado em scripts SQL que cobrem todas as etapas, desde a criação do banco de dados até as consultas analíticas. A estrutura é a seguinte:
 
 1. criar_base_dados.sql: Script responsável por definir o esquema do banco de dados, incluindo a criação das tabelas (clientes, produtos, pedidos, etc.) e a definição dos relacionamentos entre elas.
 
-2. inserir_dados_base.sql: Script que adiciona dados as tabelas fictícias, criando um ambiente de teste funcional para as consultas.
+2. inserir_dados_base.sql: Script que adiciona dados às tabelas fictícias, criando um ambiente de teste funcional para as consultas.
 
 3. consultas.sql: Contém uma série de consultas SQL, divididas por nível de complexidade (Básico, Intermediário e Avançado).
 
 ## Consultas de Análise
-O arquivo consultas.sql apresenta soluções para alguns desafios dividos em 3 partes, demonstrando proficiência em diferentes aspectos do SQL:
+O arquivo consultas.sql apresenta soluções para alguns desafios divididos em 3 partes, demonstrando proficiência em diferentes aspectos do SQL:
 
 1. Consultas de Nível Básico: Foco na extração e filtragem inicial de dados. Aborda a seleção de informações de clientes e produtos, utilizando a cláusula WHERE para filtrar registros e ORDER BY para organizar os resultados de forma significativa.
 
@@ -43,8 +41,7 @@ Para executar este projeto em sua máquina local, siga os passos abaixo:
 
 1.  **Clone este repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd seu-repositorio
+    git clone https://github.com/[seu-usuario]/[nome-do-repositorio].git
     ```
 2.  **Execute os scripts SQL:**
     * Primeiro, execute o script `criar_base_dados.sql` no seu SGBD para criar as tabelas.
@@ -55,6 +52,9 @@ Para executar este projeto em sua máquina local, siga os passos abaixo:
 
 * **SQL**: Linguagem de consulta para gerenciamento de dados.
 * **MySQL/PostgreSQL/SQLite**: O projeto é compatível com a maioria dos SGBDs.
+
+## Aprendizados
+Este projeto reforçou conceitos como modelagem relacional, uso de joins, funções agregadoras e a importância da análise de dados para decisões estratégicas.
 
 ## Contribuição
 
