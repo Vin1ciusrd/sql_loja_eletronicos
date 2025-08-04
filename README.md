@@ -38,26 +38,24 @@ O arquivo consultas.sql apresenta soluções para alguns desafios dividos em 3 p
 Essas consultas fornecem insights valiosos que podem apoiar a tomada de decisões estratégicas, como a formulação de campanhas de marketing personalizadas, a otimização do estoque com base nos produtos mais vendidos e a identificação de clientes-chave para programas de fidelidade.
 
 ## Como Executar o Projeto
-Para replicar este projeto, você precisará de um sistema de gerenciamento de banco de dados (SGBD) compatível com SQL.
 
-Clone este repositório:
+Para executar este projeto em sua máquina local, siga os passos abaixo:
 
-Bash
+1.  **Clone este repositório:**
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    cd seu-repositorio
+    ```
+2.  **Execute os scripts SQL:**
+    * Primeiro, execute o script `criar_base_dados.sql` no seu SGBD para criar as tabelas.
+    * Em seguida, execute o script `inserir_dados_base.sql` para popular as tabelas com dados.
+    * Por fim, execute o script `consultas.sql` para ver os resultados das análises.
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-Execute os scripts SQL:
+## Tecnologias Utilizadas
 
-Primeiro, execute o script criar_base_dados.sql no seu SGBD para criar as tabelas.
+* **SQL**: Linguagem de consulta para gerenciamento de dados.
+* **MySQL/PostgreSQL/SQLite**: O projeto é compatível com a maioria dos SGBDs.
 
-Em seguida, execute o script inserir_dados_base.sql para popular as tabelas com dados.
+## Contribuição
 
-Por fim, execute o script consultas.sql para ver os resultados das análises.
-
-Tecnologias Utilizadas
-SQL: Linguagem de consulta para gerenciamento de dados.
-
-MySQL/PostgreSQL/SQLite: O projeto é compatível com a maioria dos SGBDs.
-
-Contribuição
-Sinta-se à vontade para contribuir! Se você tiver sugestões de novas consultas, otimizações ou correções, por favor, abra uma issue ou envie um pull request.
+Contribuições são bem-vindas! Se você tiver alguma sugestão, melhoria ou encontrar algum problema, sinta-se à vontade para entrar em contato.
