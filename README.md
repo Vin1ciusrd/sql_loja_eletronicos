@@ -20,7 +20,7 @@ Qual o produto mais vendido?
 ## Estrutura do Projeto
 O projeto está organizado em scripts SQL que cobrem todas as etapas, desde a criação do banco de dados até as consultas analíticas. A estrutura é a seguinte:
 
-criar_base_dados.sql: Script responsável por definir o esquema do banco de dados, incluindo a criação das tabelas (clientes, produtos, pedidos, etc.) e a definição dos relacionamentos entre elas.
+. criar_base_dados.sql: Script responsável por definir o esquema do banco de dados, incluindo a criação das tabelas (clientes, produtos, pedidos, etc.) e a definição dos relacionamentos entre elas.
 
 inserir_dados_base.sql: Script que adiciona dados as tabelas fictícias, criando um ambiente de teste funcional para as consultas.
 
